@@ -12,7 +12,7 @@
             "preLaunchTask": "build",
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "https://localhost:4000"
+                "ASPNETCORE_URLS": "http://0.0.0.0:4000"
             },
             "justMyCode": false
         }
