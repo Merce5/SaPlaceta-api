@@ -1,0 +1,18 @@
+{
+    "launch": {
+        "csharp.unitTestDebuggingOptions": {
+            "enableStepFiltering": false
+        },
+        "configurations": [
+            {
+                "name": "Launch",
+                "justMyCode": false,
+                "enableStepFiltering": false
+            }
+        ],
+        "compounds": []
+    },
+    "dotnet.unitTestDebuggingOptions": {
+        "enableStepFiltering": false
+    }
+}
