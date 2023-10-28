@@ -2,12 +2,12 @@ namespace SaPlaceta_api.Models
 {
     public class MESA
     {
-        public MESA(int NUM_MESA, int NUM_PEDIDO)
+        public MESA(int Num, IEnumerable<Pedido_Mesa> Pedido)
         {
-            this.NUM_MESA = NUM_MESA;
-            this.NUM_PEDIDO = NUM_PEDIDO;
+            this.Num = Num;
+            this.Pedido = Pedido;
         }
-        public int NUM_MESA { get; set; }
-        public int NUM_PEDIDO { get; set; }
+        public int Num { get; set; }
+        public IEnumerable<Pedido_Mesa> Pedido { get; set; }
     }
 }

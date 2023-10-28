@@ -7,5 +7,5 @@ public interface IDBClient
     IEnumerable<PLATO> GetAllInventory();
     IEnumerable<PEDIDO> GetAllOrders();
     IEnumerable<PEDIDO> GetAllOrdersByDate(DateTime date);
-    IEnumerable<MESA> GetAllTables();
+    Dictionary<int, IEnumerable<Pedido_Mesa>> GetAllTables();
 }

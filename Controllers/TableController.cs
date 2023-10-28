@@ -15,7 +15,7 @@ public class TableController : ControllerBase
     }
 
     [HttpGet]
-    public IEnumerable<MESA> GetInventory()
+    public Dictionary<int, IEnumerable<Pedido_Mesa>> GetInventory()
     {
         return _client.GetAllTables();
     }
